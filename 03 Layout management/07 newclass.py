@@ -45,6 +45,7 @@ class Example(wx.Frame):
         sizer.Add(text4, pos=(4, 0), flag=wx.TOP|wx.LEFT, border=10)
 
         combo = wx.ComboBox(panel)
+        combo.Append("example")
         sizer.Add(combo, pos=(4, 1), span=(1, 3),
                   flag=wx.TOP|wx.EXPAND, border=5)
 
